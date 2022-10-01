@@ -1,0 +1,55 @@
+% Template file for styling documents
+
+\usepackage[a4paper, margin=2cm]{geometry}
+
+% Base packages
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{svg}
+\usepackage{placeins}
+
+% Don't number titles
+\setcounter{secnumdepth}{0}
+
+% Show page numbers
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy} 
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+% Avoid hyphenation
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+% Page layout
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{2.5mm}
+\setlength{\textwidth}{16cm}
+\setlength{\textheight}{24.5cm}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\topmargin}{-1.25cm}
+
+% Font
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{avant}
+\usepackage{mathptmx}
+
+% Title
+\usepackage{titlesec}
+\titleformat{\section}
+{\sffamily\large\bfseries}
+{\thesection}
+{16pt}
+{\large}
+\titlespacing*{\section}{0mm}{7mm}{0mm}
+\titleformat{\subsection}
+{\sffamily\normalsize\bfseries}
+{\thesubsection}
+{16pt}
+{\normalsize}
+\titlespacing*{\subsection}{0mm}{5mm}{0mm}
