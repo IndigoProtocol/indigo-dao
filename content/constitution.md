@@ -173,7 +173,7 @@ larger number of those votes must be "Yes." Conversely, when the voter
 turnout is high then the number of "Yes" votes required can be lower.
 "Yes" votes must always outnumber "No" for the Proposal to be
 successful. The formula for AQB is described further in the [Indigo
-Whitepaper](https://indigoprotocol.io/whitepaper).
+yellow paper](https://indigoprotocol.io/yellowpaper).
 
 **Section 3.5 -- Core Contributors.** "Core Contributor" means a Member
 elected by other Members to be on one or more advisory groups of persons
