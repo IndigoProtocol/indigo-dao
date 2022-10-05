@@ -3,7 +3,6 @@
 \usepackage[a4paper, margin=2cm]{geometry}
 
 % Base packages
-\usepackage{hyperref}
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{tikz}
@@ -53,3 +52,7 @@
 {16pt}
 {\normalsize}
 \titlespacing*{\subsection}{0mm}{5mm}{0mm}
+
+% hyperref must be last package loaded to ensure hyperlinks work
+% correctly
+\usepackage{hyperref}
