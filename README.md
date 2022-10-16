@@ -19,10 +19,12 @@ website](https://indigoprotocol.io/).
 Documents
 ---------
 
-This repository stores one document:
+This repository stores two documents:
 
 1.  **Indigo DAO Constitution** -- describes the rules set forth and
     adopted by the Indigo DAO Members
+2.  **Indigo DAO Voting Procedures** -- describes the processes and
+    procedures that apply to any vote for the Indigo DAO
 
 Usage
 -----
@@ -48,6 +50,9 @@ verify the checksum of the document against a reference.
 
     $ mat2 constitution.pdf && sha256sum constitution.cleaned.pdf
     5ee5f032c90893a35ffe75c2d35e0a0d71fad9292360ae3fe1052efef896689a  constitution.cleaned.pdf
+
+    $ mat2 voting-procedures.pdf && sha256sum voting-procedures.cleaned.pdf
+    2a5f3002c93a8ae98db2db57353707a26808ce6fbced75232f4464af1fd53639  voting-procedures.cleaned.pdf
 
 If checksums of two files match after removing the metadata, then the
 two files are verified to be equivalent, therefore no content has
